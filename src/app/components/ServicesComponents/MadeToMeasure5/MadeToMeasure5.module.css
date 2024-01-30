@@ -1,0 +1,114 @@
+.whole{
+    background-image: url('../../../assets/images/ServiceImages/Services12.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.slide{
+    /*width: 33.3%;*/
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #EEEEEF;
+    max-width: 309px;
+    width: 100%;
+}
+.slideInside{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #F2F2F2 0%, #F2F2F2 0.01%, rgba(245, 255, 253, 0.00) 100%);
+}
+.imgDiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.img{
+    max-width: 184px;
+    width: 100%;
+}
+.title{
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #302E56;
+}
+.text{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 269px;
+    width: 100%;
+    color: #595D67;
+}
+
+.upDiv{
+    padding-right: 120px;
+    /*position: relative;*/
+}
+.downDiv{
+    padding-left: 120px;
+}
+
+.upRight{
+    width: 30%;
+}
+.downLeft{
+    width: 30%;
+    padding-left: 23px;
+}
+.upDivInside{
+    background-image: url('../../../assets/images/ServiceImages/Services15.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 48px;
+    margin-bottom: 32px;
+    gap: 20px;
+}
+.downInside{
+    background-image: url('../../../assets/images/ServiceImages/Services16.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 20px;
+}
+
+
+.textRight{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #595D67;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    max-width: 355px;
+    width: 100%;
+}
+
+.listStyle{
+    padding-left: 20px;
+}
+.listStyle li{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color:#595878;
+}

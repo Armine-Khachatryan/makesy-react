@@ -1,0 +1,50 @@
+.whole {
+    background-image: url('../../../assets/images/ServiceImages/Services4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 47px;
+    padding-bottom: 100px;
+    max-width: 100%;
+    margin-bottom: 120px;
+}
+
+.slideInside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.image {
+    height: 220px
+}
+.name{
+    margin-top:24px;
+    padding-bottom: 4px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+}
+
+.slideInside:nth-child(4n+1) .name{
+   border-bottom: 4px solid #A2DCD2;
+}
+
+.slideInside :nth-child(4n+2)  .name{
+    border-bottom: 4px solid #5875D3;
+}
+
+.slideInside :nth-child(4n+3)  .name{
+    border-bottom: 4px solid #F2C28B;
+}
+
+.slideInside:nth-child(4n+1) .name{
+    border-bottom: 4px solid #A2DCD2;
+}
+
+.swiper-slide:nth-child(4n) .name {
+    border-bottom: 4px solid #A2DCD2;
+}
+

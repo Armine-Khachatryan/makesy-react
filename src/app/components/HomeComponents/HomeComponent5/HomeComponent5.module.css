@@ -1,0 +1,70 @@
+.whole{
+    background-image: url('../../../assets/images/HomeImages/Bg3.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100vw;
+    max-width: 100%;
+    padding-top: 48px;
+    padding-bottom: 80px;
+}
+.title{
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #93C8BF;
+}
+.inside{
+    display: flex;
+    margin-top: 48px;
+    gap: 24px;
+}
+.single{
+    border: 1px solid  #EEEEEF;
+    border-radius: 16px;
+    padding: 32px 32px;
+    max-width: 285px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background:  #FFF
+}
+
+.singleTitle{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 8px;
+    color: #302E56;
+}
+.singleText{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #595D67;
+}
+.imgStyle{
+    width: 48px;
+    height: 48px;
+}
+.btnDiv{
+    margin-top: 48px;
+    padding: 10px 30px;
+    border-radius: 12px;
+    border: 1px solid #302E56;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #302E56;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.btnDiv:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
