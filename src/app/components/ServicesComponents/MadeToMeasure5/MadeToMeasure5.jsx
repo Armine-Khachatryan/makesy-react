@@ -5,84 +5,10 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import {Navigation, Pagination, Zoom} from "swiper/modules";
 import classes from './MadeToMeasure5.module.css';
 
-const workshopData=[
-    {
-        image:Services13,
-        name:"Machine Name",
-        description:"machine description machine description machine description machine description machine " +
-            "description machine description  machine description"
-    },
-    {
-        image:Services13,
-        name:"Machine Name",
-        description:"machine description machine description machine description machine description machine " +
-            "description machine description  machine description"
-    },
-    {
-        image:Services13,
-        name:"Machine Name",
-        description:"machine description machine description machine description machine description machine " +
-            "description machine description  machine description"
-    },
-    {
-        image:Services13,
-        name:"Machine Name",
-        description:"machine description machine description machine description machine description machine " +
-            "description machine description  machine description"
-    },
-    {
-        image:Services13,
-        name:"Machine Name",
-        description:"machine description machine description machine description machine description machine " +
-            "description machine description  machine description"
-    },
-    {
-        image:Services13,
-        name:"Machine Name",
-        description:"machine description machine description machine description machine description machine " +
-            "description machine description  machine description"
-    }
-]
 
-const artisansData=[
-    {
-        image:Services14,
-        name:"Artist Name",
-        description:"Skill description Skill description Skill description Skill description Skill description Skill " +
-            "description Skill description Skill description Skill description Skill description "
-    },
-    {
-        image:Services14,
-        name:"Artist Name",
-        description:"Skill description Skill description Skill description Skill description Skill description Skill " +
-            "description Skill description Skill description Skill description Skill description "
-    },
-    {
-        image:Services14,
-        name:"Artist Name",
-        description:"Skill description Skill description Skill description Skill description Skill description Skill " +
-            "description Skill description Skill description Skill description Skill description "
-    },
-    {
-        image:Services14,
-        name:"Artist Name",
-        description:"Skill description Skill description Skill description Skill description Skill description Skill " +
-            "description Skill description Skill description Skill description Skill description "
-    },
-    {
-        image:Services14,
-        name:"Artist Name",
-        description:"Skill description Skill description Skill description Skill description Skill description Skill " +
-            "description Skill description Skill description Skill description Skill description "
-    },
-    {
-        image:Services14,
-        name:"Artist Name",
-        description:"Skill description Skill description Skill description Skill description Skill description Skill " +
-            "description Skill description Skill description Skill description Skill description "
-    }]
 
-const MadeToMeasure5 =()=> {
+const MadeToMeasure5 =({workshopData,artisansData,subTitle,title, workshopTitle,artisansTitle,
+                           listWorkshop,listArtisans, workshopText, artisansText})=> {
 
 
     let renderWorkshopData=workshopData.map((item, index)=>(
@@ -113,64 +39,64 @@ const MadeToMeasure5 =()=> {
 
     return(
         <div className={classes.whole}>
-            <div className="greenTitle" style={{textAlign:"center"}}>Categories</div>
-            <h2 style={{textAlign:"center"}}>Production</h2>
-            <div className={classes.upDiv}>
-                <div className={classes.upDivInside}>
-                    <Swiper
-                        spaceBetween={50}
-                        slidesPerView={3}
-                        zoom={true}
-                        navigation={true}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        modules={[Zoom, Navigation,Pagination]}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        className="swiperServices5"
-                    >
-                        {renderWorkshopData}
-                    </Swiper>
-                    <div className={classes.upRight}>
-                        <h2>Workshops</h2>
-                        <div className={classes.textRight}>Choose between the latest Garments Machines
-                            to Produce your Garments</div>
-                        <ul className={classes.listStyle}>
-                            <li>Lower Cost</li>
-                            <li>More consistent</li>
-                            <li>Less Time</li>
-                        </ul>
+            <div className={"container"}>
+                <div className="greenTitle" style={{textAlign:"center"}}>{subTitle}</div>
+                <h2 style={{textAlign:"center"}}>{title}</h2>
+                <div className={classes.upDiv}>
+                    <div className={classes.upDivInside}>
+                        <Swiper
+                            spaceBetween={50}
+                            slidesPerView={3}
+                            zoom={true}
+                            navigation={true}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            modules={[Zoom, Navigation,Pagination]}
+                            onSlideChange={() => console.log('slide change')}
+                            onSwiper={(swiper) => console.log(swiper)}
+                            className="swiperServices5"
+                        >
+                            {renderWorkshopData}
+                        </Swiper>
+                        <div className={classes.upRight}>
+                            <h2>{workshopTitle}</h2>
+                            <div className={classes.textRight}>{workshopText}</div>
+                            <ul className={classes.listStyle}>
+                                {listWorkshop.map((item, index)=>(
+                                    <li key={index}>{item}</li>
+                                ))}
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className={classes.downDiv}>
-                <div className={classes.downInside}>
-                    <div className={classes.downLeft}>
-                        <h2>Artisans</h2>
-                        <div className={classes.textRight}>Choose between a lot of Talented Makesy Artisans
-                            to work on your Garment</div>
-                        <ul className={classes.listStyle}>
-                            <li>Unique Pieces</li>
-                            <li>Eco Friendly</li>
-                            <li>Unique Pieces</li>
-                        </ul>
+                <div className={classes.downDiv}>
+                    <div className={classes.downInside}>
+                        <div className={classes.downLeft}>
+                            <h2>{artisansTitle}</h2>
+                            <div className={classes.textRight}>{artisansText}</div>
+                            <ul className={classes.listStyle}>
+                                {listArtisans.map((item, index)=>(
+                                    <li>{item}</li>
+                                ))}
+                            </ul>
+                        </div>
+                        <Swiper
+                            spaceBetween={50}
+                            slidesPerView={3}
+                            zoom={true}
+                            navigation={true}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            modules={[Zoom, Navigation,Pagination]}
+                            onSlideChange={() => console.log('slide change')}
+                            onSwiper={(swiper) => console.log(swiper)}
+                            className="swiperServices6"
+                        >
+                            {renderArtisansData}
+                        </Swiper>
                     </div>
-                    <Swiper
-                        spaceBetween={50}
-                        slidesPerView={3}
-                        zoom={true}
-                        navigation={true}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        modules={[Zoom, Navigation,Pagination]}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        className="swiperServices6"
-                    >
-                        {renderArtisansData}
-                    </Swiper>
                 </div>
             </div>
         </div>

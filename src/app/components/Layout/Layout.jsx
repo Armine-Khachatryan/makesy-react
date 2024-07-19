@@ -3,7 +3,7 @@ import Logo from '../../assets/images/Logo.png';
 import Flag from '../../assets/images/Flag.svg';
 import {NavLink, Outlet, ScrollRestoration} from "react-router-dom";
 import {HOME, SERVICES, APP_FEATURES, PRICING, HOW_IT_WORKS, BLOG} from "../../router/route-path";
-import Button from "../../ui/button/button";
+import Button from "../../ui/button/Button";
 import Footer from "../Footer/Footer";
 import classes from './Layout.module.css';
 

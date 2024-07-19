@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Button from "../../../ui/button/button";
+import Button from "../../../ui/button/Button";
 import classes from './ServicesComponent1.module.css';
 import {useNavigate} from "react-router-dom";
 

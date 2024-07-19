@@ -1,0 +1,127 @@
+.whole{
+    background-image: url('../../assets/images/ServiceImages/Services22.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    height: 100%;
+    min-height: 450px;
+    border-radius: 16px;
+}
+
+.title{
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #22213D;
+}
+
+.row{
+    display: flex;
+    gap: 16px
+}
+.iconStyle{
+    width: 20px;
+    height: 20px;
+    margin-right:4px;
+}
+
+.name{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color:#A0A2A8
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top:12px;
+    margin-bottom: 24px;
+}
+
+.button{
+    padding:8px 12px;
+    border-radius: 100px;
+    background: #EAEAEE;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color:#595878;
+    cursor: pointer;
+}
+.text{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #303541;
+}
+
+.subTitle{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.ulStyling{
+    padding-left: 20px;
+}
+.liStyling{
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color:#303541;
+}
+.margin{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.rowDiv{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 52px;
+    margin-top: 36px;
+}
+.iconDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    background: #EAEAEE;
+    cursor: pointer;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.copyDiv{
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    background: #EAEAEE;
+    cursor: pointer;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #74738E;
+}
+
+.copyIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}

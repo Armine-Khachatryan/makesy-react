@@ -1,0 +1,12 @@
+.inside{
+    width: 100%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.close{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}

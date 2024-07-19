@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from "../../../ui/button/button";
+import Button from "../../../ui/button/Button";
 import classes from './HomeComponent1.module.css';
 
 

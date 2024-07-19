@@ -1,13 +1,13 @@
 import React from 'react';
 import classes from './MadeToMeasure8.module.css';
-import Button from "../../../ui/button/button";
+import Button from "../../../ui/button/Button";
 
 
-const MadeToMeasure8 =()=> {
+const MadeToMeasure8 =({title})=> {
     return(
         <div className={"container"}>
             <div className={classes.whole}>
-                <div className={classes.title}>Join the revolution on fast fashion and order from artisan near you</div>
+                <div className={classes.title}>{title}</div>
                 <Button>Download App</Button>
             </div>
         </div>

@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from './MadeToMeasure7.module.css';
-import Video1 from "../../../assets/videos/video1.mp4";
 
 
 
-const MadeToMeasure7 =()=> {
+
+const MadeToMeasure7 =({video, subTitle, mainTitle, text})=> {
 
     return(
         <div className={classes.whole}>
@@ -12,13 +12,13 @@ const MadeToMeasure7 =()=> {
                 <div className={classes.inside}>
                     <div className={classes.videoDiv}>
                         <video width="643" height="366" controls>
-                            <source src={Video1} type="video/mp4"/>
+                            <source src={video} type="video/mp4"/>
                         </video>
                     </div>
                     <div className={classes.right}>
-                        <div className={classes.title}>Videos</div>
-                        <h2>Curious about how it happens?</h2>
-                        <div className={classes.text}>Watch this Video</div>
+                        <div className={classes.title}>{subTitle}</div>
+                        <h2>{mainTitle}</h2>
+                        <div className={classes.text}>{text}</div>
                     </div>
                 </div>
             </div>

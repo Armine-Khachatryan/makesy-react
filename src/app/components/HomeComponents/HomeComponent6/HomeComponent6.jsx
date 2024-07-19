@@ -22,7 +22,6 @@ const HomeComponent6 =()=>{
                 </div>
             </div>
         </div>
-
     )
 }
 

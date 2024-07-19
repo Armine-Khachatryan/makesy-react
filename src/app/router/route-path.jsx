@@ -1,8 +1,14 @@
-export const HOME = "/";
-// export const SERVICES = "/services/made-to-measure";
+export let HOME = "/" ;
 export const SERVICES = "/services";
-export const APP_FEATURES = "/features";
 export const PRICING = "/pricing";
 export const HOW_IT_WORKS = "/how_it_works";
 export const BLOG ="/blog";
+export const BLOG_ARTICLE_ID =`/blog/article/:id`;
+export const BLOG_WEBINAR_ID =`/blog/webinar/:id`;
+export const BLOG_REPORT_ID =`/blog/report/:id`;
+export const BLOG_CASE_STUDIES_ID =`/blog/case_studies/:id`;
+export const FAQ=`/faq`;
+export const ABOUT_US=`/about_makesy`;
+export const TERMS_AND_CONDITIONS=`/terms_and_conditions`;
+export const APP_FEATURES=`/app_features`;
 export const NOT_FOUND_PAGE = "*";

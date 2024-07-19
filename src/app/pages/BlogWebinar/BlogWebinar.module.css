@@ -1,0 +1,131 @@
+.title{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #22213D;
+}
+.row{
+    display: flex;
+    gap: 16px
+}
+.iconStyle{
+    width: 20px;
+    height: 20px;
+    margin-right:4px;
+}
+
+.name{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color:#A0A2A8
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top:12px;
+    margin-bottom: 24px;
+}
+
+.button{
+    padding:8px 12px;
+    border-radius: 100px;
+    background: #EAEAEE;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color:#595878;
+    cursor: pointer;
+}
+.text{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #303541;
+    margin-bottom: 12px;
+}
+.inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+    padding-bottom: 52px;
+    border-bottom:1px solid #EEEEEF;
+}
+.insideLeft{
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 24px;
+    background: #EAEAEE;
+    padding:24px;
+    position: relative;
+}
+.insideRight{
+    border-radius: 12px;
+    border: 1px solid  #EEEEEF;
+    padding: 24px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.titleTop{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #22213D;
+}
+.see{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #93C8BF;
+}
+
+.single{
+    padding-top: 24px;
+    border-top: 1px solid #EEEEEF;
+    padding-bottom: 24px;
+}
+.singleInside{
+    display: flex;
+    align-items: center;
+}
+.left{
+    max-width: 90px;
+    width: 100%;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+.singleTitle{
+    margin-top:12px;
+    margin-bottom:12px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color:#303541
+}
+.icon{
+    cursor: pointer;
+}
+
+.playCircle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+
+}

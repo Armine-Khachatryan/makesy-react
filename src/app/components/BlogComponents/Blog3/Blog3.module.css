@@ -1,0 +1,80 @@
+.inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 32px
+}
+.single{
+    padding: 16px 16px 21px 16px;
+    border-radius: 12px;
+    width: 32%;
+    border: 1px solid #EEEEEF;
+}
+.title{
+    margin-top:12px;
+    margin-bottom:8px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color:#303541
+}
+.row{
+    display: flex;
+    gap: 16px
+}
+.iconStyle{
+    width: 20px;
+    height: 20px;
+    margin-right:4px;
+}
+.name{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color:#A0A2A8
+}
+.description{
+    margin-bottom:12px;
+    color:#303541;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.button{
+    padding:8px 12px;
+    border-radius: 100px;
+    background: #EAEAEE;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color:#595878;
+    cursor: pointer;
+}
+.blueBtn{
+    margin: 12px auto 52px;
+    cursor: pointer;
+    padding: 14px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #302E56;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+}

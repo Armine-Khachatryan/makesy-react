@@ -1,0 +1,74 @@
+.whole{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url('../../../assets/images/ServiceImages/Services17.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.inside{
+    display: flex;
+}
+.left{
+}
+.sliderInside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.insideLeft{
+    height: fit-content;
+    padding-top: 48px;
+    padding-left: 24px;
+    padding-bottom:48px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 12px;
+    background: linear-gradient(94deg, rgba(48, 46, 86, 0.06) 0%, rgba(48, 46, 86, 0.00) 100%);
+}
+.imageDiv{
+    max-width: 100px;
+    width: 100%;
+    margin-right: 8px;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #302e56;
+    margin-bottom: 4px;
+}
+.position{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    color: #a0a2a8;
+}
+.description{
+    max-width: 530px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595d67;
+}
+.rightPart{
+    position: relative;
+}
+.rightImg{
+    position: relative;
+    max-width: 326px;
+    width: 100%;
+    z-index: 10;
+    height: 100%;
+}
+.lineImg{
+    z-index: 1;
+    position: absolute;
+    left: -20px;
+    max-width: 326px;
+    width: 100%;
+}

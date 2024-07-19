@@ -1,0 +1,84 @@
+.inside{
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 38px;
+}
+
+.single{
+    margin-right: 20px;
+    border-radius: 12px;
+    border: 1px solid  #EEEEEF;
+    padding:24px 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    max-width: 183px;
+    width:100%;
+    white-space: nowrap;
+}
+.singleActive{
+    background-color: #302E56;
+}
+.name{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color:#302E56;
+    margin-top:20px
+}
+.activeName{
+    color: #FFF;
+}
+
+.searchDiv{
+    max-width: 387px;
+    width: 100%;
+    padding: 8px 8px 8px 20px;
+    border-radius: 12px;
+    border: 1px solid #E5E6E7;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px
+}
+
+.searchIconDiv{
+    margin-left: 12px;
+    border-radius: 12px;
+    background: #302E56;
+    width:44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchIcon{
+    width: 24px;
+    height: 24px;
+}
+
+.searchInput{
+    border: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color:#595878
+}
+
+.searchInput:focus{
+    border: none;
+    outline: none;
+}
+
+.title{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 38px;
+    color: #22213D;
+}

@@ -1,0 +1,14 @@
+.inside{
+    max-width: 1350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px 32px 20px 32px;
+    background-image: url('../../../assets/images/AppFeaturesImages/AppImage6.png');
+    background-repeat: no-repeat;
+    height: 659px;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    border-radius: 12px;
+}

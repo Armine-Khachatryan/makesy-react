@@ -1,0 +1,44 @@
+.whole{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    justify-content: center;
+}
+.inside{
+    max-width: 1350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px 32px 20px 32px;
+    background-image: url('../../../assets/images/AppFeaturesImages/AppImage3.png');
+    background-repeat: no-repeat;
+    height: 642px;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    border-radius: 12px;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.titlesDiv{
+    width: 100%;;
+}
+.single{
+    width: 50%;
+}
+.readDiv{
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #302E56;
+}

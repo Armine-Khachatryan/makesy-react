@@ -1,0 +1,70 @@
+.inside{
+    padding-top: 50px;
+    padding-bottom: 78px;
+}
+.slide{
+    border-radius: 20px;
+    background-image: url('../../../assets/images/BlogImages/BlogBg1.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    padding: 85px 32px 89px 52px;
+}
+
+.text{
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #EEEEEF;
+}
+.title{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFF;
+}
+
+.bgTitle{
+    background-color: #93C8BF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFF;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    width: fit-content;
+}
+
+.subTitle{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFF;
+    margin-bottom: 36px;
+    max-width: 478px;
+    width: 100%;
+}
+.whiteBtn{
+    padding: 10px;
+    border-radius: 12px;
+    background: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #302E56;
+    display: flex;
+    justify-content: center;
+    max-width: 160px;
+    width: 100%;
+    cursor: pointer;
+}
+.whiteBtn:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}

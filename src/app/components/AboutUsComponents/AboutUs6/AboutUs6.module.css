@@ -1,0 +1,59 @@
+.whole{
+    background: linear-gradient(94deg, rgba(48, 46, 86, 0.06) 0%, rgba(48, 46, 86, 0.00) 100%);
+    padding-top: 40px;
+    padding-bottom: 44px;
+}
+.text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595D67;
+    max-width: 508px;
+    width: 100%;
+}
+
+.single{
+    width: fit-content !important;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid  #EEEEEF;
+}
+
+.imgDiv{
+    max-width: 253px;
+    width: 100%;
+}
+.name{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #302E56;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.position{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 12px;
+    color: #A0A2A8;
+}
+.iconsDiv{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+.iconStyle{
+    width: 32px;
+    height: 32px;
+}
+.inside{
+    margin-top: 20px;
+    display: flex;
+}

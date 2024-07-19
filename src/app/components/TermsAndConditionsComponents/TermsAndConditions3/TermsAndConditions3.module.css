@@ -1,0 +1,77 @@
+.inside{
+    background-image: url('../../../assets/images/TermsAndConditionsImages/Terms2.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 72px;
+    border-radius: 20px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    color: #302E56;
+    margin-bottom: 12px;
+}
+.subTitle{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595878;
+}
+.right{
+    display: flex;
+}
+.blueBtn{
+    padding: 10px 26px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #302E56;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color:#FFF;
+    margin-right: 32px;
+    cursor: pointer;
+}
+.whiteBtn{
+    padding: 10px 26px;
+    border-radius: 12px;
+    border: 1px solid #302E56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #302E56;
+    cursor: pointer;
+}
+.whiteBtn:hover {
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+.blueBtn:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}

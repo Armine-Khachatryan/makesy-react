@@ -1,0 +1,19 @@
+.whole{
+    background-image: url('../../../assets/images/TermsAndConditionsImages/Terms1.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+}
+.title{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: #302E56;
+    text-align: center;
+    margin-top: 50px;
+}

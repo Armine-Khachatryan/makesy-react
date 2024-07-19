@@ -48,11 +48,11 @@
 }
 
 .upDiv{
-    padding-right: 120px;
+    /*padding-right: 120px;*/
     /*position: relative;*/
 }
 .downDiv{
-    padding-left: 120px;
+    /*padding-left: 120px;*/
 }
 
 .upRight{
@@ -75,6 +75,7 @@
     margin-top: 48px;
     margin-bottom: 32px;
     gap: 20px;
+    /*position: relative;*/
 }
 .downInside{
     background-image: url('../../../assets/images/ServiceImages/Services16.png');

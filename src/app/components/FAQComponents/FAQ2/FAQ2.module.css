@@ -1,0 +1,186 @@
+.inside{
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.single{
+    padding: 24px 19px;
+    border-radius: 12px;
+    border: 1px solid #EEEEEF;
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.activeSingle{
+    border: none;
+    background:#302E56;
+}
+
+.iconDiv{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.title{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: #302E56;
+}
+.activeTitle{
+    color: #FFF;
+}
+
+.below{
+    display: flex;
+    margin-bottom: 72px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.section{
+    max-width: 285px;
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 12px;
+    background: #F9FAFA;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchDiv{
+    max-width: 285px;
+    width: 100%;
+    padding: 8px 8px 8px 20px;
+    border-radius: 12px;
+    border: 1px solid #E5E6E7;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px
+}
+
+.searchIconDiv{
+    margin-left: 12px;
+    border-radius: 12px;
+    background: #302E56;
+    width:44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchIcon{
+    width: 24px;
+    height: 24px;
+}
+
+.searchInput{
+    border: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color:#595878
+}
+
+.singleSection{
+    display: flex;
+    align-items: center;
+    padding: 8px 8px 8px 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #A0A2A8;
+    border-left: 2px solid #E5E6E7;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.activeSingleSection{
+    color: #302E56;
+    border-left: 2px solid #302E56;
+}
+.sectionIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.right{
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid  #E5E6E7;
+    padding: 24px;
+}
+.mainTitle{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    color: #302E56;
+    margin-bottom: 20px;
+}
+.whole{
+    padding: 24px 16px;
+    border-radius: 12px;
+    background:  #F6FCFB;
+}
+.upDiv{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.upIcon{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.upIconStyle{
+    width: 50px;
+    height: 50px;
+}
+.upTitle{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: #302E56;
+}
+.questionAnswerDiv{
+    padding: 18px 24px;
+    border-radius: 12px;
+    border: 1px solid #E5E6E7;
+    background:  #FFF;
+    margin-bottom: 10px;
+}
+.question{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #302E56;
+}
+
+.questionDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.answer{
+    margin-top: 18px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595D67;
+}

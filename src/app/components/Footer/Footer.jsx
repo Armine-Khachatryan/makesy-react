@@ -5,8 +5,12 @@ import Facebook from '../../assets/images/Facebook.svg';
 import Instagram from '../../assets/images/Instagram.svg';
 import Twitter from '../../assets/images/Twitter.svg';
 import classes from './Footer.module.css';
+import {useNavigate} from "react-router-dom";
 
 const Footer =()=>{
+
+    const navigate=useNavigate();
+
     return(
         <>
             <div className={classes.footerUp}>
@@ -19,10 +23,11 @@ const Footer =()=>{
                         </div>
                         <div>
                             <div className={classes.title}>Company</div>
-                            <div className={classes.text}>About Makesy</div>
+                            <div className={classes.text} onClick={()=>navigate(`/about_makesy`)}>About Makesy</div>
                             <div className={classes.text}>Pricing</div>
                             <div className={classes.text}>Blog</div>
-                            <div className={classes.text}>FAQ</div>
+                            <div className={classes.text} onClick={()=>navigate(`/faq`)}>FAQ</div>
+                            <div className={classes.text} onClick={()=>navigate(`/terms_and_conditions`)}>Terms & Conditions</div>
                         </div>
                         <div>
                             <div className={classes.title}>Product</div>
@@ -30,19 +35,19 @@ const Footer =()=>{
                             <div className={classes.text}>App Features</div>
                             <div className={classes.text}>Find Tailors</div>
                         </div>
-                        <div>
-                            <div className={classes.title}>Company</div>
-                            <div className={classes.text}>Shopping & Delivery</div>
-                            <div className={classes.text} >Returns &amp; Exchange</div>
-                            <div className={classes.text}>Terms & Conditions</div>
-                            <div className={classes.text}>Privacy Policy</div>
-                        </div>
-                        <div>
-                            <div className={classes.title}>How it works</div>
-                            <div className={classes.text}>For Customers</div>
-                            <div className={classes.text}>For Garment Producers</div>
-                            <div className={classes.text}>For Artisans</div>
-                        </div>
+                        {/*<div>*/}
+                        {/*    <div className={classes.title}>Company</div>*/}
+                        {/*    /!*<div className={classes.text}>Shopping & Delivery</div>*!/*/}
+                        {/*    /!*<div className={classes.text} >Returns &amp; Exchange</div>*!/*/}
+                        {/*    /!*<div className={classes.text} onClick={()=>navigate(`/terms_and_conditions`)}>Terms & Conditions</div>*!/*/}
+                        {/*    /!*<div className={classes.text}>Privacy Policy</div>*!/*/}
+                        {/*</div>*/}
+                        {/*<div>*/}
+                        {/*    <div className={classes.title}>How it works</div>*/}
+                        {/*    <div className={classes.text}>For Customers</div>*/}
+                        {/*    <div className={classes.text}>For Garment Producers</div>*/}
+                        {/*    <div className={classes.text}>For Artisans</div>*/}
+                        {/*</div>*/}
                         <div>
                             <div className={classes.title}>Follow us</div>
                             <div className={classes.icons}>

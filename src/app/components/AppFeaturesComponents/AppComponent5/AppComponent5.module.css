@@ -1,0 +1,32 @@
+.left{
+    padding: 32px 32px 20px 32px;
+    border-radius: 12px;
+    background-image: url('../../../assets/images/AppFeaturesImages/AppImage7.png');
+    background-repeat: no-repeat;
+    max-width: 590px;
+    width: 100%;
+    height: 816px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 590px;
+    width: 100%;
+    padding: 32px 32px 20px 32px;
+    border-radius: 12px;
+    background-image: url('../../../assets/images/AppFeaturesImages/AppImage8.png');
+    background-repeat: no-repeat;
+    height: 816px;
+}
+.inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1350px;
+    margin:  0 auto 72px;
+}
